@@ -11,6 +11,7 @@
 #import "SDWebImageOperation.h"
 
 typedef NS_OPTIONS(NSUInteger, SDWebImageDownloaderOptions) {
+    // 低优先级
     SDWebImageDownloaderLowPriority = 1 << 0,
     SDWebImageDownloaderProgressiveDownload = 1 << 1,
 
